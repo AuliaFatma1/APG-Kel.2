@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APG | Tambah Jabatan</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        Aplikasi Manajemen Pegawai
+    </header>
+    <div class="container">
+        <aside>
+            <ul class="menu">
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="tabel-pegawai.html">Data Pegawai</a></li>
+                <li><a href="tabel-jabatan.html">Data Jabatan</a></li>
+                <li><a href="login.html">Keluar</a></li>  
+            </ul>
+        </aside>
+        <section class="main">
+            <h2 class="judul">Tambah Jabatan</h2>
+                <form action="proses.php" method="post">
+                    <div class="form-group">
+                        <label for="nama">Nama Jabatan</label>
+                            <div class="input"><input type="text" id="nama"></div>
+                    </div>
+                    <div class="form-group">
+                           <input type="submit" value="Simpan" class="tombol simpan">
+                           <input type="reset" value="Batal" class="tombol reset">                        
+                    </div>
+                </form>           
+        </section>
+    </div>
+    <footer>
+        Copyright &copy; <b>Aulia</b> Official
+    </footer>
+</body>
+</html>
